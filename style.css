@@ -1,0 +1,232 @@
+
+
+header{
+  background:#ff6b6b;
+  width:100%;
+  clear:both;
+  content:'';
+  display: table;
+}
+.menu{
+  widch:900px;
+  margin:0 auto;
+}
+  width:120px;
+  height:100px;
+  float:left;
+  padding:8px;
+}
+img{
+    width:2000px;
+  height:50px;
+  float:left;
+  padding:8px;
+
+}
+nav{
+  float:right;
+}
+nav ul li{
+  list-style:none;
+  margin-left:75px;
+  padding:12px 0;
+  float:left;
+  position:relative;
+  border: 1px solid #000;
+  background-color: #FFF;
+  
+}
+nav ul li{
+  text-decoration:none;
+  color:#444;
+  font-weight:bold;
+}
+nav ul li a:before{
+  display:block;
+  content:"";
+  width:0%;
+  background:#444;
+  heigth:5px;
+  top:0;
+  position:absolute;
+}
+nav ul li a:before{
+  width:100%;
+}
+  background-image: url("img/fondo(2).jpg");
+  
+h1{
+    color:#000000
+    font-size: 85 px;
+    font-arial;
+
+    text-align: center;
+}
+.social-networks a {
+    display: inline-flex;
+    color: #ffffff;
+    height: 48px;
+    width: 48px;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 0 6px;
+    transition: transform 0.4s;
+}
+
+.social-networks a:hover {
+    transform: scale(1.3);
+}
+
+.social-networks a.facebook {
+    background-color: #3c70a4;
+}
+
+.social-networks a.twitter {
+    background-color: #5bd1d7;
+}
+
+.social-networks a.google {
+    background-color: #ee4540;
+}
+
+.social-networks a.youtube {
+    background-color: #c72c41;
+}
+
+.social-networks a.instagram {
+    background-color: #bb7171;
+}
+.CuadroNombre{
+    background-color: #F08080;
+    width: 100%;
+    height: 100px;
+    font-family: Comic Sans MS;
+    font-size: 70px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    color: #0f0f0f;
+    margin-bottom: 20px;
+}
+#imgTop{
+    height: 60%;
+    background-color: #F08080
+  ;
+    margin-top: 10px;
+}
+center{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+.Contenedor{
+    padding: 1px;
+    width: 100%;
+    height: 450px;
+    margin-bottom: 50px;
+    display: flex;
+}
+.CuadroProductos{
+    height: 100%;
+    padding: 5px;
+    margin-left: 20px;
+
+}
+
+.ImgProducto{
+    width: 400px;
+    height: 400px;
+}
+.BotonCompra{
+    width: 100%;
+    border: solid;
+    border-radius: 5px;
+    background-color:none;
+    border-color: #F08080;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    height: 40px;
+    
+}
+.BotonCompra:hover{
+    width: 100%;
+    border-radius: 5px;
+    background-color: #F08080;
+    color: #eacccc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    height: 40px;   
+}
+.Costo{
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.form-register {
+  width: 400px;
+  background: #d03e3e;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background: #d03e3e;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #050505;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons
+{
+  width: 100%;
+  background: #d71e09dd;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}

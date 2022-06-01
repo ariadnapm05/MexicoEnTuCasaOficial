@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tienda De "México En Tu Casa"
+    </title>
+    <link rel="shortcut icon" href="img/Logo.png" type="image/x-icon">
+    <script leguage= "javascript">
+        function obtenerCantidad(){
+            cantidad = parseInt(document.getElementById("Cantidad").value);
+            if(cantidad == null){
+                cantidad = 0;
+            }
+            return cantidad;
+        }
+    </script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="CuadroNombre">
+            <img src="img/logo2.jpg" alt="" id="imgTop">
+          "Mexico En TU Casa"
+      <img src="img/logo2.jpg" alt="" id="imgTop">
+      
+    </div>
+    <center>
+        Cantidad de productos: 
+        <input type="number" name="" id="Cantidad" value="0">
+    </center>
+    <br>
+    <div class="Contenedor">
+        <div class="CuadroProductos">
+            <label for="" class="Costo" style="background: none;position: absolute;left: 40px;top: 180px;"> Recetario
+              <br>$300</label>
+            <img src="z1.jpg" alt="" class="ImgProducto"><br>
+            <button onclick="comprar(300,obtenerCantidad())" class="BotonCompra">COMPRAR</button>
+        </div>
+        <div class="CuadroProductos">
+            <label for="" class="Costo" style="background: none;position: absolute;left: 470px;top: 180px;">Mandil  <br>
+            Blanco <br>
+            $280 <br></label>
+            <img src="z2.jpg" alt="" class="ImgProducto"><br>
+            <button onclick="comprar(280,obtenerCantidad())" class="BotonCompra">COMPRAR</button>
+        </div>
+        <div class="CuadroProductos">
+            <label for="" class="Costo" style="background: none;position: absolute;left: 900px;top: 180px;">Mandil <br>
+              Negro<br>
+              $280</label>
+            <img src="z3.jpg" alt="" class="ImgProducto"><br>
+            <button onclick="comprar(280,obtenerCantidad())" class="BotonCompra">COMPRAR</button>
+        </div>
+    </div>
+    <div class="Contenedor">
+        <div class="CuadroProductos">
+            <label for="" class="Costo" style="background: none;position: absolute;left: 40px;top: 680px;">Playera Blanca Con Logo<br>
+              De La Pagina <br>
+              $299</label>
+            <img src="z4.jpg" alt="" class="ImgProducto"><br>
+            <button onclick="comprar(299,obtenerCantidad())" class="BotonCompra">COMPRAR</button>
+        </div>
+        <div class="CuadroProductos">
+            <label for="" class="Costo" style="background: none;position: absolute;left: 470px;top: 680px;">Playera Negra Con Logo<br>
+              De La Pagina <br>
+              $299</label>
+            <img src="z5.jpg" alt="" class="ImgProducto"><br>
+            <button onclick="comprar(299,obtenerCantidad())" class="BotonCompra">COMPRAR</button>
+        </div>
+        <div class="CuadroProductos">
+            <label for="" class="Costo" style="background: none;position: absolute;left: 900px;top: 680px;">Playera Blanca Con Eslogan<br>
+              De La Pagina <br>
+              $299</label></label>
+            <img src="z6.jpg" alt="" class="ImgProducto"><br>
+            <button onclick="comprar(299,obtenerCantidad())" class="BotonCompra">COMPRAR</button>
+        </div>
+    </div>
+    <div class="Contenedor">
+        <div class="CuadroProductos">
+            <label for="" class="Costo" style="background: none;position: absolute;left: 40px;top: 1180px;">Playera Negra Con Eslogan<br>
+              De La Pagina <br>
+              $299</label>
+            <img src="z7.jpg" alt="" class="ImgProducto"><br>
+            <button onclick="comprar(299,obtenerCantidad())" class="BotonCompra">COMPRAR</button>
+        </div>
+        
+    
+</body>
+</html>
